@@ -324,6 +324,10 @@ namespace QMK_Toolbox.Usb
                             return BootloaderType.Sn32Dfu;
                         case 0x7040: // SN32F240b
                             return BootloaderType.Sn32Dfu;
+                        case 0x7140: // SN32F290
+                            return BootloaderType.Sn32Dfu;
+                        case 0x7160: // SN32F240c
+                            return BootloaderType.Sn32Dfu;
                         case 0x7900: // SN32F240
                             return BootloaderType.Sn32Dfu;
                     }
